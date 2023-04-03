@@ -1,0 +1,158 @@
+:root {
+    --background-900: #090c0f;
+    --home-800: #b99272;
+    --font-700: #fff;
+    --white-900: white;
+    --body: #212428;
+    --menubar: #0e1317;
+    --fonts: 'Oswald';
+    --font2: 'Roboto';
+}
+
+/* header path start*/
+.topbar {
+    background-color: var(--background-900);
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.header1 {
+    width: 33%;
+
+    display: flex;
+    text-align: center;
+}
+
+.hi {
+    font-size: 14px;
+    color: var(--home-800);
+}
+
+span {
+    font-size: 14px;
+    color: var(--white-900);
+    margin: 5px;
+}
+
+.header1 i {
+    color: var(--home-800);
+}
+
+/*header center icon*/
+.header2 {
+    width: 33%;
+    line-height: 10px;
+    align-items: center;
+}
+
+.header2 ul {
+    justify-content: center;
+    display: flex;
+}
+
+.header2 ul li {
+    margin-right: 20px;
+    font-size: 15px;
+    color: var(--white-900);
+}
+
+.header2 ul li a {
+    color: var(--font-700);
+}
+
+/*header path 3*/
+.header3 {
+    width: 33%;
+    color: var(--home-800);
+
+    justify-content: end;
+}
+
+h2 {
+    font-family: var(--font2);
+    font-size: 14px;
+    color: var(--home-800);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: var(--font2);
+    font-size: 14px;
+    color: var(--white-900);
+}
+
+/* topbar close*/
+
+
+
+
+/*menubar open*/
+
+.menubar {
+    width: 100%;
+    background-color: var(--menubar);
+    padding-left: 30px;
+    padding-right: 30px;
+    /* position: fixed; */
+
+
+}
+
+.menubar .logo {
+    width: 25%;
+
+}
+
+/* logo*/
+.menubar img {
+    width: 118px;
+    height: 40px;
+
+}
+
+/*achon tags*/
+
+nav {
+    width: 50%;
+
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    color: var(--font-700);
+    text-transform: uppercase;
+    font-family: var(--fonts);
+}
+
+nav i {
+    font-size: 12px;
+    color: var(--font-700);
+    margin: 2px;
+}
+
+nav ul li 
+a:nth-child(1) {
+    color: var(--home-800);
+}
+
+/* button &shopping icon*/
+.cta-btn {
+    width: 25%;
+}
+
+.cta-btn span {
+    padding: 15px;
+    background-color: var(--home-800);
+    border-radius: 10px;
+}
+.cta-btn i{
+    color: var(--font-700);
+    font-size: 20px;
+}
+
+
+
+/*menu bar close*/
